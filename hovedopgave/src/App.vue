@@ -4,12 +4,15 @@ import Nav from './components/header/Navbar.vue'
 </script>
 
 <template>
-<Nav name:polse ></Nav>
- 
-<RouterView />
+    <div>
 
+        <Nav></Nav>
+        
+        <RouterView></RouterView>
+        
+    </div>
 </template>
 
 <style lang="scss" >
-@import "./assets/styling/global.scss";
+
 </style>
