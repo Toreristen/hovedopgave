@@ -4,7 +4,7 @@
 
 <template>
  <main>
-    <h1>forside</h1>
+    <h1>Ydelser</h1>
     
   </main>
   

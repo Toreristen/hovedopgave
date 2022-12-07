@@ -4,7 +4,7 @@
 
 <template>
  <main>
-    <h1>forside</h1>
+    <h1>Faggrupper</h1>
     
   </main>
   

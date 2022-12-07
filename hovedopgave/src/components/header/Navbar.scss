@@ -1,0 +1,52 @@
+.img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .main-header {
+    width: 95%;
+    
+    margin: 2rem auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    div, nav {
+      border: 1px solid black;
+    }
+    
+    .header-logo {
+      width: 125px;
+  
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+
+    .header-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .header-links {
+            font-size: 2.2rem;
+            
+        }
+
+    }
+  
+    .header-support {
+  
+      a {
+        border: 1px solid black; 
+  
+  
+  
+      }
+  
+    }
+  
+  }

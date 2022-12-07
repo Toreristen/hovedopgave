@@ -10,8 +10,12 @@ import { RouterLink } from "vue-router";
         <img class="img-fluid" src="../../assets/img/logo_2022_geodata_orange.svg" alt="Logo" />
       </div>
       <nav class="header-nav">
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink class="header-links" to="/">Home</RouterLink>
+        <RouterLink class="header-links" to="/ydelser">Ydelser</RouterLink>
+        <RouterLink class="header-links" to="/faggrupper">Faggrupper</RouterLink>
+        <RouterLink class="header-links" to="/cases">Cases</RouterLink>
+        <RouterLink class="header-links" to="/om-os">Om os</RouterLink>
+        <RouterLink class="header-links" to="/kontakt">Kontakt</RouterLink>
       </nav>
       <div class="header-support">
         <a href="#">
@@ -24,48 +28,4 @@ import { RouterLink } from "vue-router";
 <!-- Make it scoped to not make it apply to everything -->
 <style lang="scss" scoped>
 @import "../header/Navbar.scss";
-
-.img-fluid {
-  width: 100%;
-  height: auto;
-}
-
-
-.main-header {
-  width: 95%;
-  
-  margin: 2rem auto;
-  
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  
-  div, nav {
-    border: 1px solid black;
-  }
-  
-  .header-logo {
-    width: 125px;
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-  }
-
-  .header-support {
-
-    a {
-      border: 1px solid black; 
-
-
-
-    }
-
-  }
-
-}
-
-
-
 </style>
