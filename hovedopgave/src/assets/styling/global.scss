@@ -4,5 +4,18 @@ html, body {
     margin: 0;
     
     font-size: 10px;
-
+    
+    @font-face {
+        font-family: "RobotoMedium";
+        src: local("Roboto"),
+        url(../fonts/roboto/Roboto-Medium.ttf) format("truetype");
+         
+      }
+    @font-face {
+        font-family: "RobotoBold";
+        src: local("Roboto"),
+        url(../fonts/roboto/Roboto-Bold.ttf) format("truetype");
+         
+      }
+   
 }
