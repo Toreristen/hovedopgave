@@ -14,9 +14,9 @@ import { RouterLink } from "vue-router";
         <RouterLink to="/about">About</RouterLink>
       </nav>
       <div class="header-support">
-        <button>
+        <a href="#">
           support
-        </button>
+        </a>
       </div>
     </header>
   </div>
@@ -50,6 +50,17 @@ import { RouterLink } from "vue-router";
     display: flex;
     justify-content: center;
     align-items: center;
+
+  }
+
+  .header-support {
+
+    a {
+      border: 1px solid black; 
+
+
+
+    }
 
   }
 
