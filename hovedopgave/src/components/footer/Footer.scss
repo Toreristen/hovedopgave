@@ -1,0 +1,15 @@
+@import "../../assets/styling/variables/colors";
+
+.footer {
+    width: 100%;
+    background-color: $darkBlue;
+
+    .footer-top {
+         
+        margin: 0 50px;
+
+        .footer-top-section {
+            margin-top: 165px;
+        }
+    }
+}
