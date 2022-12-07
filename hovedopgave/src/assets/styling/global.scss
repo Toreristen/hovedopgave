@@ -7,15 +7,16 @@ html, body {
     
     @font-face {
         font-family: "RobotoMedium";
-        src: local("Roboto"),
+        src: local("RobotoMedium"),
         url(../fonts/roboto/Roboto-Medium.ttf) format("truetype");
          
       }
+
     @font-face {
         font-family: "RobotoBold";
-        src: local("Roboto"),
+        src: local("RobotoBold"),
         url(../fonts/roboto/Roboto-Bold.ttf) format("truetype");
          
       }
-   
+
 }
