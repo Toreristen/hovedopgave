@@ -1,5 +1,4 @@
 <script>
-
 import { RouterLink } from "vue-router";
 
 export default {
@@ -9,10 +8,7 @@ export default {
       isShow: false,
     };
   },
-
- 
 };
-
 </script>
 
 <template>
@@ -27,16 +23,17 @@ export default {
       </div>
       <nav class="header-nav">
         <RouterLink class="header-links" to="/">Home</RouterLink>
-        <div @click="isShow = !isShow" id="ydelser" class="header-links dropdown">
+        <div @click="isShow = true" id="ydelser" class="header-links dropdown">
           Ydelser ^
           <div v-show="isShow" class="dropdown-content">
             <div class="grid-container">
-              <p>
-                Dropdown indhold her
-              </p>
-              <RouterLink to="/ydelser">
-                Gå til Ydelser
-              </RouterLink>
+              <p>Dropdown indhold her</p>
+              <RouterLink to="/ydelser"> Gå til Ydelser </RouterLink>
+
+              <div 
+              @click="isShow = false" class="close-btn">
+              X
+            </div>
             </div>
           </div>
         </div>
@@ -51,8 +48,6 @@ export default {
         <a href="#"> support </a>
       </div>
     </header>
-
-    
   </div>
 </template>
 <!-- Make it scoped to not make it apply to everything -->
