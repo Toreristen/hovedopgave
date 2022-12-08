@@ -136,20 +136,21 @@
     .footer {
 
         .footer-bottom {
-            grid-template-columns: 1fr;
+            // grid-template-columns: 1fr;
             
             height: auto;
 
-            padding: 0 25px;
+            padding: 20px 25px;
 
             .footer-bottom-left {
                 flex-direction: column;
                 justify-content: flex-start;
                 align-items: flex-start;
+                // margin-bottom: 2rem;
 
                 .footer-bottom-txt {
-                    font-size: 1.4rem;
-    
+                    font-size: 1.6rem;
+                    margin: 0 0 2rem 0;
                     padding-right: 1rem;
                 }
             }
@@ -164,9 +165,12 @@
                 .footer-nav {
                     flex-direction: column;
                     align-items: flex-start;
-                    gap: 10px;   
+                    justify-content: flex-start;
+                    gap: 2rem;  
+                    padding: 0; 
         
-                    .footer-nav-items {                        
+                    .footer-nav-items {  
+                        // margin-bottom: 2rem;                      
                         font-size: 1.6rem;
                         font-weight: 600;
                     }
@@ -175,16 +179,9 @@
                 }
         
                 .footer-some {
-                    display: flex;
-                    gap: 1rem;
-    
+                    // margin-top: 1rem;
+                    padding-bottom: 1rem;
                     font-size: 2.8rem;
-    
-                    .footer-some-tag {
-                        cursor: pointer;
-                        color: $white;
-                        
-                    }
     
                 }
         }
