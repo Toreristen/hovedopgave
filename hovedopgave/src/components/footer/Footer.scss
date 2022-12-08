@@ -2,14 +2,64 @@
 
 .footer {
     width: 100%;
-    background-color: $darkBlue;
+    
 
     .footer-top {
-         
-        margin: 0 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+        background-color: #cdc6c6;
+        padding: 4rem 5rem;
+        border: 1px solid red;
 
         .footer-top-section {
-            margin-top: 165px;
+            border: 1px solid red;
+            height: auto;
+
+            .footer-top-heading {
+                font-size: 2.6rem;
+                margin: 0;
+            }
+
+            .footer-top-txt {
+                font-size: 1.6rem;
+                min-height: 70px;
+                border: 1px solid red;
+
+                margin: 0.5rem 0 3.5rem 0;
+                padding-right: 1rem;
+            }
+
+            .footer-top-btn {
+                background-color: $darkBlue;
+                border: 3px solid $darkBlue;
+                border-radius: 4px 4px 4px 16px;
+                padding: 1.2rem 4rem;
+
+                color: $white;
+
+                font-size: 2.2rem;
+                font-weight: 600;
+                text-decoration: none;
+
+                
+            }
+        }
+    }
+
+    .footer-bottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        background-color: $darkBlue;
+        color: $white;
+        padding: 0 50px;
+
+        .footer-bottom-left {
+            border: 1px solid red;
+        }
+        .footer-bottom-right {
+            border: 1px solid red;
         }
     }
 }
