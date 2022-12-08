@@ -4,6 +4,7 @@ html, body {
     margin: 0;
     
     font-size: 10px;
+    font-family: RobotoRegular, Helvetica, Arial;
     
     @font-face {
         font-family: "RobotoMedium";
@@ -16,6 +17,13 @@ html, body {
         font-family: "RobotoBold";
         src: local("RobotoBold"),
         url(../fonts/roboto/Roboto-Bold.ttf) format("truetype");
+         
+      }
+      
+    @font-face {
+        font-family: "RobotoRegular";
+        src: local("RobotoRegular"),
+        url(../fonts/roboto/Roboto-Regular.ttf) format("truetype");
          
       }
 
