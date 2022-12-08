@@ -23,6 +23,24 @@ import { RouterLink } from "vue-router";
         </a>
       </div>
     </header>
+
+    <div class="dropdown">
+    <button class="dropbtn">
+      Ydelser 
+      <!-- pil ned her, fontawesome prob -->
+    </button>
+    <div class="dropdown-content">
+
+      <div class="grid-container">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+
+      </div>
+
+    </div>
+  </div> 
+
   </div>
 </template>
 <!-- Make it scoped to not make it apply to everything -->
