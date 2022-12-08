@@ -9,8 +9,6 @@ import Footer from './components/footer/Footer.vue';
     <div>
 
         <Nav></Nav>
-
-        
         
         <RouterView></RouterView>
 
