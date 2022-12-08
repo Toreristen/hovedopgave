@@ -10,15 +10,19 @@
                 <h2 class="footer-top-heading">Support</h2>
                 <p class="footer-top-txt">Står du og har brug for hjælp med et af vores programmer? 
                 Så kan du få hjælp og vejledning på supportsiden ved at klikke her</p>
-                <a class="footer-top-btn" href="#"><span>Gå til support</span></a>  
                 
-
+                <a class="footer-btn" href="#">
+                    <div class="btn-txt">Gå til support</div>
+                    <img class="btn-arrow" src="../../assets/img/right_arrow_vector.svg" alt="white arrow on hover">
+                </a>  
             </div>
+
             <div class="footer-top-section">
                 <h2 class="footer-top-heading">Find os</h2>
-                <p class="footer-top-txt">Du har altid mulighed for at kontakte os. Om det er stort eller småt, så står vi altid til rådighed </p>
+                <p class="footer-top-txt">Du har altid mulighed for at kontakte os. Om det er stort eller småt, så står vi altid til rådighed</p>
                 
             </div>
+
             <div class="footer-top-section">
                 <h2 class="footer-top-heading">Kontakt os</h2>
                 <p class="footer-top-txt">Du har altid mulighed for at kontakte os. Om det er stort eller småt, så står vi altid til rådighed </p>
@@ -54,9 +58,7 @@
                         <font-awesome-icon class="footer-some-tag" icon="fa-brands fa-square-facebook" />
                     </a>
                 </div>
-            </div>
-
-            
+            </div>            
 
         </section>
 

@@ -20,13 +20,16 @@
             .footer-top-txt {
                 font-size: 1.6rem;
                 min-height: 70px;
-                border: 1px solid red;
 
                 margin: 0.5rem 0 3.5rem 0;
                 padding-right: 1rem;
             }
 
-            .footer-top-btn {
+            .footer-btn {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+                max-width:240px;
                 background-color: $darkBlue;
                 border: 3px solid $darkBlue;
                 border-radius: 4px 4px 4px 16px;
@@ -37,6 +40,11 @@
                 font-size: 2.2rem;
                 font-weight: 600;
                 text-decoration: none;
+
+                .btn-arrow {
+                    height: 4rem;
+                    width: 6rem;
+                }
 
                 
             }
@@ -120,4 +128,66 @@
         
         
     }
+}
+
+// MEDIA QUERIES
+
+@media only screen and (max-width: 768px) {
+    .footer {
+
+        .footer-bottom {
+            grid-template-columns: 1fr;
+            
+            height: auto;
+
+            padding: 0 25px;
+
+            .footer-bottom-left {
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+                .footer-bottom-txt {
+                    font-size: 1.4rem;
+    
+                    padding-right: 1rem;
+                }
+            }
+
+            .footer-bottom-right {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0;
+                
+    
+                .footer-nav {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 10px;   
+        
+                    .footer-nav-items {                        
+                        font-size: 1.6rem;
+                        font-weight: 600;
+                    }
+        
+                    
+                }
+        
+                .footer-some {
+                    display: flex;
+                    gap: 1rem;
+    
+                    font-size: 2.8rem;
+    
+                    .footer-some-tag {
+                        cursor: pointer;
+                        color: $white;
+                        
+                    }
+    
+                }
+        }
+    }
+  }
 }
