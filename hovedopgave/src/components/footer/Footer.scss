@@ -1,8 +1,6 @@
 @import "../../assets/styling/variables/colors";
 
-.footer {
-    width: 100%;
-    
+.footer {    
 
     .footer-top {
         display: grid;
@@ -10,10 +8,8 @@
         
         background-color: #cdc6c6;
         padding: 4rem 5rem;
-        border: 1px solid red;
 
         .footer-top-section {
-            border: 1px solid red;
             height: auto;
 
             .footer-top-heading {
@@ -56,7 +52,11 @@
         padding: 0 50px;
 
         .footer-bottom-left {
-            border: 1px solid red;
+            display: flex;
+            
+            .footer-bottom-txt {
+                font-size: 1.4rem;
+            }
         }
         .footer-bottom-right {
             border: 1px solid red;

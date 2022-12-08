@@ -10,7 +10,9 @@
                 <h2 class="footer-top-heading">Support</h2>
                 <p class="footer-top-txt">Står du og har brug for hjælp med et af vores programmer? 
                 Så kan du få hjælp og vejledning på supportsiden ved at klikke her</p>
-                <a class="footer-top-btn" href="#">Gå til support</a>             
+                <a class="footer-top-btn" href="#"><span>Gå til support</span></a>  
+                
+
             </div>
             <div class="footer-top-section">
                 <h2 class="footer-top-heading">Find os</h2>
@@ -26,8 +28,12 @@
         </section>
         <section class="footer-bottom">
             <div class="footer-bottom-left">
-                <h2 class="footer-heading">bottom left</h2>
-
+                <p class="footer-bottom-txt">LIFA A/S</p>
+                <p class="footer-bottom-txt">LIFA A/S</p>
+                <p class="footer-bottom-txt">LIFA A/S</p>
+                <p class="footer-bottom-txt">LIFA A/S</p>
+                <p class="footer-bottom-txt">LIFA A/S</p>
+                
             </div>
             <div class="footer-bottom-right">
                 <h2 class="footer-heading">bottom right</h2>
