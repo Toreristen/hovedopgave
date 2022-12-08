@@ -1,18 +1,18 @@
 @import "../../assets/styling/variables/fonts.scss" ;
 
+//TODO add img fluid to global class, or as mixin
 .img-fluid {
     width: 100%;
     height: auto;
   }
     
   .main-header {
-    
+    //TODO add wrap class instead of 95 width
     width: 95%;
-    
-    margin: 2rem auto;
+    height: 10vh;
     
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr auto 1fr;
     
     div, nav {
       border: 1px solid black;
@@ -20,7 +20,7 @@
     
     .header-logo {
       width: 125px;
-  
+      margin-left: 4rem;
   
       display: flex;
       justify-content: center;
@@ -53,10 +53,28 @@
   
     .header-support {
   
+      width: 100%;
+
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      position: relative;
+
+
       a {
-        border: 1px solid black; 
-  
-  
+        padding: 10px 20px;
+        background-color: grey;
+        color: white;
+        border-radius: 4px;
+
+        font-size: 1.6rem;
+
+        position: absolute;
+        right: 0;
+
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: $Bold;
   
       }
   
