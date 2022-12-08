@@ -29,16 +29,34 @@
         <section class="footer-bottom">
             <div class="footer-bottom-left">
                 <p class="footer-bottom-txt">LIFA A/S</p>
-                <p class="footer-bottom-txt">LIFA A/S</p>
-                <p class="footer-bottom-txt">LIFA A/S</p>
-                <p class="footer-bottom-txt">LIFA A/S</p>
-                <p class="footer-bottom-txt">LIFA A/S</p>
-                
+                <p class="footer-bottom-txt">Lucernemarken 1 5260 Odense S</p>
+                <p class="footer-bottom-txt">CVR nr. 1234567890</p>
+                <p class="footer-bottom-txt">Tlf.: 12 34 12 34</p>
+                <p class="footer-bottom-txt">geodata@lifa.dk</p>
             </div>
-            <div class="footer-bottom-right">
-                <h2 class="footer-heading">bottom right</h2>
 
+            <div class="footer-bottom-right">
+                <ul class="footer-nav">
+                    <a href="#" class="footer-nav-items">dokumentation</a>
+                    <a href="#" class="footer-nav-items">kontakt</a>
+                    <a href="#" class="footer-nav-items">support</a>
+                    <a href="#" class="footer-nav-items">datamodel</a>
+                </ul>
+                
+                <div class="footer-some">
+                    <a href="#">
+                        <font-awesome-icon class="footer-some-tag" icon="fa-brands fa-youtube" />
+                    </a>
+                    <a href="#">
+                        <font-awesome-icon class="footer-some-tag" icon="fa-brands fa-linkedin" />
+                    </a>
+                    <a href="#">
+                        <font-awesome-icon class="footer-some-tag" icon="fa-brands fa-square-facebook" />
+                    </a>
+                </div>
             </div>
+
+            
 
         </section>
 
