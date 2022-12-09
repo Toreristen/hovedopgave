@@ -24,9 +24,10 @@
             <h2 class="heading">Skab et overblik med Geodata</h2>
             <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem illum quod ex voluptatem nesciunt, debitis reprehenderit dolor facilis autem maxime ducimus. Tenetur, debitis vero pariatur repellat minima aperiam eos ea quo placeat maxime at impedit rerum fugit delectus dolorem autem!</p>
 
-            <a href="#" class="read-more">Læs mere 
+            <div class="btn">
+                <a href="#" class="read-more">Læs mere </a>
                 <font-awesome-icon class="arrow" icon="fa-solid fa-chevron-right" /> 
-            </a>
+            </div>
         </section>
     </article>
 

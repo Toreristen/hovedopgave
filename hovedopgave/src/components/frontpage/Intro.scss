@@ -86,24 +86,31 @@
             margin-bottom: 1.5rem;
         }
 
-        .read-more {
+        .btn {
+            display: flex;
+            align-items: center;
 
-            font-size: 2rem;
-            font-weight: 600;
-            text-decoration: none;
-            color: $black;
+            .read-more {
+                padding-right: 5px;
+                font-size: 2rem;
+                font-weight: 600;
+                text-decoration: none;
+                color: $black;
 
+                &:hover + .arrow {
+                    padding-left: 10px;
+                    transition: 0.4s ease-in;
+                }
+            }
+                
             .arrow{
                 font-size: 1.5rem;
                 font-weight: 600;
-                    
+                
+                
+            }
             
-            }
-
-            &:hover {
-                padding-left: 10px;
-                transition: 0.4s ease-in;
-            }
+            
         }
     }
 
