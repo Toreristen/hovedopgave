@@ -1,16 +1,33 @@
-<script setup>
+<script>
+import Modal from '../components/modal/Modal.vue'
+
+export default {
+  components: Modal
+}
+
 
 </script>
 
+
+
 <template>
- <main>
-    <h1>Cases</h1>
+ <div>
+
+   <button>
+     show modal
+    </button>
     
-  </main>
-  
+    <Modal>
+      <p>
+        Modal indhold
+      </p>
+    </Modal>
+    
+  </div>
 </template>
 
 <style lang="scss" scoped>
+
 
 
 </style>
