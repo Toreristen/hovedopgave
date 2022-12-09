@@ -1,10 +1,11 @@
 @import "../../assets/styling/variables/colors";
 
 .footer {    
-
+    margin-top: 10rem;
     .footer-top {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
         
         background-color: #cdc6c6;
         padding: 4rem 5rem;
@@ -21,29 +22,28 @@
                 font-size: 1.6rem;
                 min-height: 70px;
 
-                margin: 0.5rem 0 3.5rem 0;
-                padding-right: 1rem;
+                margin: 0.5rem 0 2rem 0;
             }
 
             .footer-btn {
-               display: flex;
-               justify-content: center;
-               align-items: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 max-width:240px;
-                background-color: $darkBlue;
-                border: 3px solid $darkBlue;
+                border: 4px solid $darkBlue;
                 border-radius: 4px 4px 4px 16px;
-                padding: 1.2rem 4rem;
+                padding: 1.2rem 0;
 
-                color: $white;
+                color: $black;
 
                 font-size: 2.2rem;
                 font-weight: 600;
                 text-decoration: none;
-
-                .btn-arrow {
-                    height: 4rem;
-                    width: 6rem;
+                
+                &:hover {
+                    background-color: $darkBlue;
+                    color: $white;
+                    transition: 0.2s ease-in;
                 }
 
                 
@@ -132,8 +132,215 @@
 
 // MEDIA QUERIES
 
+//Small laptop
+
+@media only screen and (max-width: 1024px){
+    .footer {
+
+        
+
+        .footer-bottom {
+            
+            height: auto;
+
+            padding: 20px 25px;
+
+            .footer-bottom-left {
+                flex-wrap: wrap;
+
+                .footer-bottom-txt {
+                    font-size: 1.6rem;
+                    margin: 0 0 2rem 0;
+                    padding-right: 1rem;
+                }
+            }
+
+            .footer-bottom-right {
+                align-items: flex-start;
+    
+                .footer-nav {
+                    align-items: flex-start;
+        
+                    .footer-nav-items {  
+                        // margin-bottom: 2rem;                      
+                        font-size: 1.6rem;
+                        font-weight: 600;
+                    }
+        
+                    
+                }
+        
+                .footer-some {
+                    align-items: flex-start;
+                    // margin-top: 1rem;
+                    padding-bottom: 1rem;
+                    font-size: 2.8rem;
+    
+                }
+        }
+    }
+  }
+    
+}
+
+//Tablet
+
 @media only screen and (max-width: 768px) {
     .footer {
+
+        .footer-top {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2.8rem;
+            
+            background-color: #cdc6c6;
+            padding: 4rem 2.5rem;
+    
+            .footer-top-section {
+                height: auto;
+    
+                .footer-top-heading {
+                    font-size: 2.6rem;
+                    margin: 0;
+                }
+    
+                .footer-top-txt {
+                    font-size: 1.6rem;
+    
+                    margin: 0.5rem 0 2rem 0;
+                    padding-right: 2rem;
+                }
+    
+                .footer-btn {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    max-width:240px;
+                    border: 4px solid $darkBlue;
+                    border-radius: 4px 4px 4px 16px;
+                    padding: 1.2rem 0;
+    
+                    color: $black;
+    
+                    font-size: 2.2rem;
+                    font-weight: 600;
+                    text-decoration: none;
+                    
+                    &:hover {
+                        background-color: $darkBlue;
+                        color: $white;
+                        transition: 0.2s ease-in;
+                    }
+    
+                    
+                }
+            }
+        }
+
+        .footer-bottom {
+            // grid-template-columns: 1fr;
+            
+            height: auto;
+
+            padding: 20px 25px;
+
+            .footer-bottom-left {
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                // margin-bottom: 2rem;
+
+                .footer-bottom-txt {
+                    font-size: 1.6rem;
+                    margin: 0 0 2rem 0;
+                    padding-right: 1rem;
+                }
+            }
+
+            .footer-bottom-right {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0;
+                
+    
+                .footer-nav {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    gap: 2rem;  
+                    padding: 0; 
+        
+                    .footer-nav-items {  
+                        // margin-bottom: 2rem;                      
+                        font-size: 1.6rem;
+                        font-weight: 600;
+                    }
+        
+                    
+                }
+        
+                .footer-some {
+                    // margin-top: 1rem;
+                    padding-bottom: 1rem;
+                    font-size: 2.8rem;
+    
+                }
+        }
+    }
+  }
+}
+
+//Mobile
+
+@media only screen and (max-width: 426px) {
+    .footer {
+
+        .footer-top {
+            display: grid;
+            grid-template-columns: 1fr;
+    
+            .footer-top-section {
+                height: auto;
+    
+                .footer-top-heading {
+                    font-size: 2.6rem;
+                    margin: 0;
+                }
+    
+                .footer-top-txt {
+                    font-size: 1.6rem;
+                    min-height: 70px;
+    
+                    margin: 0.5rem 0 2rem 0;
+                    padding-right: 2rem;
+                }
+    
+                .footer-btn {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    max-width:240px;
+                    border: 4px solid $darkBlue;
+                    border-radius: 4px 4px 4px 16px;
+                    padding: 1.2rem 0;
+    
+                    color: $black;
+    
+                    font-size: 2.2rem;
+                    font-weight: 600;
+                    text-decoration: none;
+                    
+                    &:hover {
+                        background-color: $darkBlue;
+                        color: $white;
+                        transition: 0.2s ease-in;
+                    }
+    
+                    
+                }
+            }
+        }
 
         .footer-bottom {
             // grid-template-columns: 1fr;

@@ -3,7 +3,6 @@
 </script>
 
 <template>
- <main>
     <footer class="footer">
         <section class="footer-top">
             <div class="footer-top-section">
@@ -12,21 +11,24 @@
                 Så kan du få hjælp og vejledning på supportsiden ved at klikke her</p>
                 
                 <a class="footer-btn" href="#">
-                    <div class="btn-txt">Gå til support</div>
-                    <img class="btn-arrow" src="../../assets/img/right_arrow_vector.svg" alt="white arrow on hover">
+                    Gå til support
                 </a>  
             </div>
 
             <div class="footer-top-section">
                 <h2 class="footer-top-heading">Find os</h2>
                 <p class="footer-top-txt">Du har altid mulighed for at kontakte os. Om det er stort eller småt, så står vi altid til rådighed</p>
-                
+                <a class="footer-btn" href="#">
+                    Find os
+                </a>  
             </div>
 
             <div class="footer-top-section">
                 <h2 class="footer-top-heading">Kontakt os</h2>
                 <p class="footer-top-txt">Du har altid mulighed for at kontakte os. Om det er stort eller småt, så står vi altid til rådighed </p>
-
+                <a class="footer-btn" href="#">
+                    Kontakt os
+                </a>  
             </div>
 
         </section>
@@ -34,7 +36,7 @@
             <div class="footer-bottom-left">
                 <p class="footer-bottom-txt">LIFA A/S</p>
                 <p class="footer-bottom-txt">Lucernemarken 1 5260 Odense S</p>
-                <p class="footer-bottom-txt">CVR nr. 1234567890</p>
+                <p class="footer-bottom-txt">CVR: 1234567890</p>
                 <p class="footer-bottom-txt">Tlf.: 12 34 12 34</p>
                 <p class="footer-bottom-txt">geodata@lifa.dk</p>
             </div>
@@ -63,8 +65,6 @@
         </section>
 
     </footer>
-    
-  </main>
   
 </template>
 
