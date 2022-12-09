@@ -1,7 +1,7 @@
 @import "../../assets/styling/variables/colors";
 
 .footer {    
-
+    margin-top: 10rem;
     .footer-top {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -191,9 +191,10 @@
         .footer-top {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            gap: 2.8rem;
             
             background-color: #cdc6c6;
-            padding: 4rem 5rem;
+            padding: 4rem 2.5rem;
     
             .footer-top-section {
                 height: auto;
