@@ -8,10 +8,69 @@
     gap: 2rem;
     
 
-    margin: 2rem 5rem;
+    margin: 2rem 5rem 0 5rem;
 
     .child-1 {
         grid-row: 1;
+
+        .heading {
+            margin: 0;
+
+            font-size: $h2size;
+            color: $black;
+        }
+
+        .txt {
+            margin: 0;
+            font-size: $txtSize;
+            margin-top: $txtTopSpacing;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+
+            
+            .read-more {
+                padding-right: 5px;
+                font-size: 2rem;
+                font-weight: 600;
+                text-decoration: none;
+                color: $black;
+
+                &:hover + .arrow {
+                    padding-left: 10px;
+                    transition: 0.4s ease-in;
+                }
+            }
+                
+            .arrow{
+                font-size: 1.5rem;
+                font-weight: 600;
+                
+                
+            }
+            
+            
+        }
+    }
+    .child-2 {
+        border-radius: 4px;
+
+        grid-row: span 2;
+        grid-column: 2;
+    }
+    .child-3 {
+        border-radius: 4px;
+        grid-row: span 2;
+        grid-column: 1;
+    }
+    .child-4 {
+        
+        
+        grid-row: 3;
+        grid-column: 2;
 
         .heading {
             margin: 0;
@@ -34,34 +93,18 @@
             text-decoration: none;
             color: $black;
 
-            .arrow {
+            .arrow{
                 font-size: 1.5rem;
                 font-weight: 600;
+                    
+            
             }
 
             &:hover {
-                animation-name: test;
+                padding-left: 10px;
+                transition: 0.4s ease-in;
             }
         }
-    }
-    .child-2 {
-        background-color: teal;
-        border-radius: 4px;
-
-        grid-row: span 2;
-        grid-column: 2;
-    }
-    .child-3 {
-        background-color: teal;
-        border-radius: 4px;
-        grid-row: span 2;
-        grid-column: 1;
-    }
-    .child-4 {
-        background-color: hotpink;
-        
-        grid-row: 3;
-        grid-column: 2;
     }
 
 
@@ -70,8 +113,14 @@
 //Key frames
 
 @keyframes test {
-    from {background-color: none;}
-    to {background-color: $orange;}
+    from {
+        background-color: none;
+        // margin-left: 0px;
+    }
+    to {
+        background-color: $orange;
+        // margin-left: 50px;
+    }
   }
 
 
