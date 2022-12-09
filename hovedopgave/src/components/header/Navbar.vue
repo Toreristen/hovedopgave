@@ -1,7 +1,16 @@
 <script>
 import { RouterLink } from "vue-router";
+import Modal from '../modal/Modal.vue';
+import { ref } from "vue";
 
-
+export default {
+  components: { Modal },
+  setup () {
+    const isShowing = ref(false)
+    console.log(isShowing)
+    return { isShowing }
+  }
+}
 
 </script>
 
@@ -19,17 +28,8 @@ import { RouterLink } from "vue-router";
       </div>
       <nav class="header-nav">
         <RouterLink class="header-links" to="/">Home</RouterLink>
-        <div id="ydelser" class="header-links dropdown">Ydelser ^</div>
-
-        <!-- <div class="dropdown-content">
-          <div class="grid-container">
-            <p>Dropdown indhold her</p>
-            <RouterLink to="/ydelser"> Gå til Ydelser </RouterLink>
-
-            <div @click="isShow = false" class="close-btn">X</div>
-          </div>
-        </div> -->
-
+        <div @click="isShowing = true" class="header-links ">Ydelser ^
+        </div>
         <RouterLink class="header-links" to="/faggrupper"
           >Faggrupper</RouterLink
         >
@@ -41,6 +41,12 @@ import { RouterLink } from "vue-router";
         <a href="#"> support </a>
       </div>
     </header>
+    <Modal v-show="isShowing" @close="isShowing = false">
+            <p>
+              Modal indhold
+            </p>
+            
+          </Modal>
   </div>
 </template>
 <!-- Make it scoped to not make it apply to everything -->
