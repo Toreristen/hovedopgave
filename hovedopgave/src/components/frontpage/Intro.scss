@@ -1,0 +1,168 @@
+@import "../../assets/styling/variables/colors";
+@import "../../assets/styling/variables/fonts";
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2rem;
+    
+
+    margin: 2rem 5rem 0 5rem;
+
+    .child-1 {
+        grid-row: 1;
+
+        .heading {
+            margin: 0;
+
+            font-size: $h2size;
+            color: $black;
+        }
+
+        .txt {
+            margin: 0;
+            font-size: $txtSize;
+            margin-top: $txtTopSpacing;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+
+            
+            .read-more {
+                padding-right: 5px;
+                font-size: 2rem;
+                font-weight: 600;
+                text-decoration: none;
+                color: $black;
+
+                &:hover + .arrow {
+                    padding-left: 10px;
+                    transition: 0.4s ease-in;
+                }
+            }
+                
+            .arrow{
+                font-size: 1.5rem;
+                font-weight: 600;
+                
+                
+            }
+            
+            
+        }
+    }
+    .child-2 {
+        border-radius: 4px;
+
+        grid-row: span 2;
+        grid-column: 2;
+    }
+    .child-3 {
+        border-radius: 4px;
+        grid-row: span 2;
+        grid-column: 1;
+    }
+    .child-4 {
+        
+        
+        grid-row: 3;
+        grid-column: 2;
+
+        .heading {
+            margin: 0;
+
+            font-size: $h2size;
+            color: $black;
+        }
+
+        .txt {
+            margin: 0;
+            font-size: $txtSize;
+            margin-top: $txtTopSpacing;
+            margin-bottom: 1.5rem;
+        }
+
+        .read-more {
+
+            font-size: 2rem;
+            font-weight: 600;
+            text-decoration: none;
+            color: $black;
+
+            .arrow{
+                font-size: 1.5rem;
+                font-weight: 600;
+                    
+            
+            }
+
+            &:hover {
+                padding-left: 10px;
+                transition: 0.4s ease-in;
+            }
+        }
+    }
+
+
+}
+
+//Key frames
+
+@keyframes test {
+    from {
+        background-color: none;
+        // margin-left: 0px;
+    }
+    to {
+        background-color: $orange;
+        // margin-left: 50px;
+    }
+  }
+
+
+//MEDIA QUERIES 
+
+@media only screen and (max-width: 769px) {
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        gap: 0rem;
+        
+        border: 1px solid red;
+    
+        margin: 2rem 2.5rem;
+    
+        .child-1 {
+            background-color: hotpink;
+            grid-row: 3 / span 1;
+            grid-column: 1;
+        }
+        .child-2 {
+            background-color: teal;
+    
+            grid-row: 1 / span 2;
+            grid-column: 1;
+            
+        }
+        .child-3 {
+            background-color: teal;
+            grid-row: 4 / span 2;
+            
+        }
+        .child-4 {
+            background-color: hotpink;
+            grid-row: 6 / span 1;
+            grid-column: 1;
+        
+        }
+    
+    
+    }
+
+}
