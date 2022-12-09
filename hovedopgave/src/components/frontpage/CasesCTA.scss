@@ -1,0 +1,19 @@
+@import "../../assets/styling/variables/colors";
+@import "../../assets/styling/variables/fonts";
+
+.cases {
+
+    .cases-about {
+        background-color: $greenBlue;
+
+        .cases-heading {
+            font-size: $h2size;
+            color: $white;
+        }
+
+        .cases-txt {
+            font-size: $txtSize;
+        }
+
+    }
+}

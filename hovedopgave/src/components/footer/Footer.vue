@@ -3,7 +3,6 @@
 </script>
 
 <template>
- <main>
     <footer class="footer">
         <section class="footer-top">
             <div class="footer-top-section">
@@ -66,8 +65,6 @@
         </section>
 
     </footer>
-    
-  </main>
   
 </template>
 
