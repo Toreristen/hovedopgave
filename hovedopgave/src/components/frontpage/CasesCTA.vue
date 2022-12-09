@@ -9,7 +9,7 @@
             <p class="cases-txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore ut molestias debitis voluptates, similique fugit officiis, iusto libero est odit quae explicabo corporis non. Autem ex reprehenderit natus ab nihil ipsam facere molestiae iure, in dolore neque ratione hic mollitia!</p>
             <a href="#" class="cases-btn">Læs mere</a>
         </div>
-        <img src="../../assets/img/Kaj.png" alt="" class="cases-img img-fluid">
+        <img src="../../assets/img/cases-desktop.png" alt="" class="cases-img img-fluid">
 
     </section>
 

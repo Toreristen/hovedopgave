@@ -16,7 +16,7 @@
             font-size: $h2size;
             color: $white;
 
-            margin: 2rem 0 0.8rem 0;
+            margin: 0 0 1.2rem 0;
         }
 
         .cases-txt {
@@ -31,11 +31,10 @@
             justify-content: center;
             align-items: center;
 
-            max-width:240px;
-            margin-top: 2rem;
+            width:200px;
+            margin-top: 4rem;
             
             background-color: $orange;
-            border: 4px solid $orange;
             border-radius: 4px 4px 16px 4px;
             box-shadow: 2px 3px 8px $darkShadow;
             
@@ -47,7 +46,6 @@
             
             &:hover {
                 background-color: $darkOrange;
-                border: 4px solid $darkOrange; 
                 transition: 0.2s ease-in;
             }
 
@@ -76,7 +74,7 @@
         grid-template-rows: 2fr;
         gap: 2rem;
         
-        padding: 2rem 2.5rem;
+        padding: 4rem 2.5rem;
     
         .cases-about {
             grid-row: 2;
