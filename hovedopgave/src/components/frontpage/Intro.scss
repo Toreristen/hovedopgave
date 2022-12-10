@@ -8,7 +8,7 @@
     gap: 2rem;
     
 
-    margin: 2rem 5rem 0 5rem;
+    margin: 6rem 5rem 0 5rem;
 
     .child-1 {
         grid-row: 1;
@@ -90,6 +90,7 @@
             display: flex;
             align-items: center;
 
+            
             .read-more {
                 padding-right: 5px;
                 font-size: 2rem;
@@ -119,17 +120,6 @@
 
 //Key frames
 
-@keyframes test {
-    from {
-        background-color: none;
-        // margin-left: 0px;
-    }
-    to {
-        background-color: $orange;
-        // margin-left: 50px;
-    }
-  }
-
 
 //MEDIA QUERIES 
 
@@ -140,32 +130,34 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
         gap: 0rem;
-        
-        border: 1px solid red;
     
         margin: 2rem 2.5rem;
     
         .child-1 {
-            background-color: hotpink;
             grid-row: 3 / span 1;
             grid-column: 1;
+
+            .heading{
+                margin-top: 2rem;
+            }
         }
         .child-2 {
-            background-color: teal;
     
             grid-row: 1 / span 2;
             grid-column: 1;
             
         }
         .child-3 {
-            background-color: teal;
             grid-row: 4 / span 2;
             
         }
         .child-4 {
-            background-color: hotpink;
             grid-row: 6 / span 1;
             grid-column: 1;
+
+            .heading{
+                margin-top: 2rem;
+            }
         
         }
     
