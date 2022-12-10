@@ -1,0 +1,36 @@
+@import "../../assets/styling/variables/colors";
+@import "../../assets/styling/variables/fonts";
+@import "../frontpage/Intro.scss";
+@import "../frontpage/CasesCTA.scss";
+
+.video {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .video-text {
+        position: absolute;
+        text-align: center;
+        color: $white;
+
+        .header {
+            font-size: $h1size;
+        }
+        .heading {
+            font-size: $h2size;
+        }
+    }
+
+   
+    .video-mpg {
+       
+        height: fit-content;
+        video{
+            width: 100%;
+            object-fit:cover;
+        }
+    }
+}
+

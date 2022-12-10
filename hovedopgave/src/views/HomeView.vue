@@ -1,12 +1,12 @@
 <script setup>
 import CasesCTA from '../components/frontpage/CasesCTA.vue';
 import Intro from '../components/frontpage/Intro.vue';
-
+import VideoSection from '../components/frontpage/Videosection.vue';
 </script>
 
 <template>
  <main>
-    <h1>forside</h1>
+    <VideoSection></VideoSection>
     <Intro></Intro>
     <CasesCTA></CasesCTA>
     
