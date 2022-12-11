@@ -4,14 +4,14 @@
    
     <section class="video">
         <div class="video-text">
-        <h1 class="header">Fangende tekst</h1>
-        <h2 class="heading">Ladida tekst tekst</h2>
-        <div class="cases-btn">
-            <a href="#">Kontakt os</a>
-        </div>
+            <h1 class="header">Fangende tekst</h1>
+            <h2 class="heading">Ladida tekst tekst</h2>
+            <div class="cases-btn">
+                <a href="#">Kontakt os</a>
+            </div>
         </div>
         <div class="overlay"></div>
-   <div class="video-mpg">
+        <div class="video-mpg">
             <video src="../../assets/video/background_wcolor.mp4" loop autoplay></video>
         </div> 
     </section>
