@@ -1,0 +1,42 @@
+@import "../../assets/styling/variables/colors";
+@import "../../assets/styling/variables/fonts";
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 5rem;
+
+    .main-header {
+        font-size: 3.6rem;
+        margin: 0;
+        margin-top: 3rem;
+    }
+
+    .txt {
+        font-size: 1.6rem;
+        margin: 0;
+        margin-top: 0.8rem;
+    }
+
+    .info {
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 0;
+        margin-top: 1.5rem;
+    }
+}
+
+//MEDIA QUERIES
+@media only sceen and (max-width: 769px) {
+
+    .container {
+        margin: 0 2.5rem;
+
+        .txt {
+            text-align: center;
+        }
+    
+    }
+}

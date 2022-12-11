@@ -1,6 +1,4 @@
-<script setup>
 
-</script>
 
 <template>
    
@@ -20,7 +18,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import "../frontpage/VideoSection.scss";
-@import "../../assets/styling/variables/colors";
-@import "../../assets/styling/variables/fonts";
+    @import "../frontpage/VideoSection.scss";
+    @import "../../assets/styling/variables/colors";
+    @import "../../assets/styling/variables/fonts";
 </style>
