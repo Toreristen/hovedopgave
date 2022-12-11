@@ -4,11 +4,9 @@
    
     <section class="video">
         <div class="video-text">
-            <h1 class="main-header">Fangende tekst</h1>
+            <h1 class="main-header">Geodata er med til at give indsigt</h1>
             <h2 class="heading">Ladida tekst tekst</h2>
-            <div class="cases-btn">
-                <a href="#">Kontakt os</a>
-            </div>
+            <a class="contact-btn" href="#">Kontakt os</a>
         </div>
         <div class="overlay"></div>
         <div class="video-mpg">
