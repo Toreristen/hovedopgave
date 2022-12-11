@@ -1,10 +1,12 @@
 <script setup>
+
 </script>
+
 <template>
    
     <section class="video">
         <div class="video-text">
-            <h1 class="header">Fangende tekst</h1>
+            <h1 class="main-header">Fangende tekst</h1>
             <h2 class="heading">Ladida tekst tekst</h2>
             <div class="cases-btn">
                 <a href="#">Kontakt os</a>
@@ -21,5 +23,4 @@
 @import "../frontpage/VideoSection.scss";
 @import "../../assets/styling/variables/colors";
 @import "../../assets/styling/variables/fonts";
-
 </style>

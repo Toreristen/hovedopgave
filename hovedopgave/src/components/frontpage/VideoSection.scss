@@ -1,7 +1,5 @@
 @import "../../assets/styling/variables/colors";
 @import "../../assets/styling/variables/fonts";
-@import "../frontpage/Intro.scss";
-@import "../frontpage/CasesCTA.scss";
 
 .video {
     width: 100%;
@@ -15,8 +13,8 @@
         text-align: center;
         color: $white;
 
-        .header {
-            font-size: $h1size;
+        .main-header {
+            font-size: 4.6rem;
         }
         .heading {
             font-size: $h2size;
