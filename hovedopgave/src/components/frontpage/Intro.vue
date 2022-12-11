@@ -19,9 +19,11 @@
         <section class="item-b">
             <img src="../../assets/img/cases-desktop.png" alt="" class=" intro-img img-fluid">
         </section>
+        
         <section class="item-c">
             <img src="../../assets/img/cases-desktop.png" alt="" class="intro-img img-fluid">
         </section>
+
         <section class="item-d">
             <h2 class="heading">Geodata er en del af LIFA familien</h2>
             <p class="txt">Geodata er en afdeling af LIFA A/S, som der gennem årene har udviklet den traditionelle landinspektørforretning til også at omfatte specialistviden på GIS-, OIS- og CAD-området.

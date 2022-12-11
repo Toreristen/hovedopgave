@@ -1,0 +1,19 @@
+@import "../../assets/styling/variables/colors";
+@import "../../assets/styling/variables/fonts";
+
+.container {
+    background-image: url('../../assets/img/bg-banner.svg');
+    
+
+    .txt-square {
+        background-color: hotpink;
+        width: 40%;
+
+
+    }
+
+    .block-square {
+        width: 80%;
+        height: 200px;
+    }
+}

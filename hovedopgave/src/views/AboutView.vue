@@ -1,7 +1,14 @@
+<script setup>
+    import AboutHero from '../components/about/AboutHero.vue';
+</script>
+
 <template>
- <h1>Om os</h1>
+    <main>
+        <AboutHero></AboutHero>
+    </main>
+
 </template>
 
-<style>
+<style lang="scss" scoped>
 
 </style>
