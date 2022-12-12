@@ -9,6 +9,11 @@ export default {
     const isShowing = ref(false)
     console.log(isShowing)
     return { isShowing }
+  },
+  data() {
+    return {
+      hover: false,
+    }
   }
 }
 
@@ -25,17 +30,17 @@ export default {
             alt="Logo"
           />
         </RouterLink>
-      </div>
-      <nav class="header-nav">
-        <RouterLink class="header-links" to="/">Home</RouterLink>
-        <div @click="isShowing = true" class="header-links ">Ydelser ^
+      </div> 
+      <nav class="header-nav" >
+        <RouterLink @mouseover="hover = true" @mouseleave="hover = false" :class="{ active: hover }" class="header-links" to="/">Home</RouterLink>
+        <div @mouseover="hover = true" @mouseleave="hover = false" :class="{ active: hover }" @click="isShowing = true" class="header-links ">Ydelser ^
         </div>
-        <RouterLink class="header-links" to="/faggrupper"
+        <RouterLink @mouseover="hover = true" @mouseleave="hover = false" :class="{ active: hover }" class="header-links" to="/faggrupper"
           >Faggrupper</RouterLink
         >
-        <RouterLink class="header-links" to="/cases">Cases</RouterLink>
-        <RouterLink class="header-links" to="/om-os">Om os</RouterLink>
-        <RouterLink class="header-links" to="/kontakt">Kontakt</RouterLink>
+        <RouterLink @mouseover="hover = true" @mouseleave="hover = false" :class="{ active: hover }" class="header-links" to="/cases">Cases</RouterLink>
+        <RouterLink @mouseover="hover = true" @mouseleave="hover = false" :class="{ active: hover }" class="header-links" to="/om-os">Om os</RouterLink>
+        <RouterLink @mouseover="hover = true" @mouseleave="hover = false" :class="{ active: hover }" class="header-links" to="/kontakt">Kontakt</RouterLink>
       </nav>
       <div class="header-support">
         <a href="#"> support </a>
