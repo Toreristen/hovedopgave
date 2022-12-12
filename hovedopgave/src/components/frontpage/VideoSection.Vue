@@ -10,7 +10,7 @@
         </div>
         <div class="overlay"></div>
         <div class="video-mpg">
-            <video src="../../assets/video/background_wcolor.mp4" loop autoplay ></video>
+            <video src="../../assets/video/background_bw.mp4" loop autoplay ></video>
         </div> 
     </section>
 </template>
