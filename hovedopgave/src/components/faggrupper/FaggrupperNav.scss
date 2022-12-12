@@ -14,7 +14,39 @@
 
         &:hover {
             color: $darkBlue;
+            cursor: pointer;
+            transition: 0.1s ease-in;
         }
 
     }
+
+    .router-link-active {
+        border-top: 3px solid $darkBlue;
+        color: $darkBlue;
+        cursor: pointer;
+        transition: 0.1s ease-in;
+    }
+}
+
+//MEDIA QUERIES
+
+@media only screen and (max-width: 426px) {
+
+    .sub-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    
+        .sub-link {
+            font-size: 2rem;
+    
+    
+    
+        }
+    
+        
+    }
+    
 }
