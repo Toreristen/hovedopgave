@@ -5,6 +5,10 @@ import CasesView from '../views/CasesView.vue'
 import ContactView from '../views/ContactView.vue'
 import FaggrupperView from '../views/FaggrupperView.vue'
 import YdelserView from '../views/YdelserView.vue'
+import BoligView from '../views/boligView.vue';
+import KommunerView from '../views/KommunerView.vue';
+import ByggebranchenView from '../views/ByggebranchenView.vue';
+import ForsyningsselskaberView from '../views/ForsyningsselskaberView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -35,7 +39,21 @@ const router = createRouter({
     {
       path:'/faggrupper',
       name: 'faggrupper',
-      component: FaggrupperView
+      component: FaggrupperView,
+      children: [{
+        path: 'kommuner',
+        component: KommunerView
+
+      }, {
+        path: 'forsyningsselskaber',
+        component: ForsyningsselskaberView
+      }, {
+        path: 'bolig',
+        component: BoligView
+      }, {
+        path: 'byggebranchen',
+        component: ByggebranchenView
+      }]
     },
     {
       path: '/ydelser',

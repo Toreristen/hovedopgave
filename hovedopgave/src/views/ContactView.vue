@@ -7,6 +7,8 @@ import Contact from '../components/contact/Contact.vue';
  <main>
     <Contact></Contact>
     
+    
+
   </main>
   
 </template>
