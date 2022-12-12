@@ -5,12 +5,12 @@
     <section class="video">
         <div class="video-text">
             <h1 class="main-header">Geodata er med til at give indsigt</h1>
-            <h2 class="heading">Ladida tekst tekst</h2>
+            <h2 class="heading">Leverandør indenfor GIS, OIS & CAD løsninger</h2>
             <a class="contact-btn" href="#">Kontakt os</a>
         </div>
         <div class="overlay"></div>
         <div class="video-mpg">
-            <video src="../../assets/video/background_bw.mp4" loop autoplay ></video>
+            <video src="../../assets/video/background_wcolor.mp4" loop autoplay ></video>
         </div> 
     </section>
 </template>
