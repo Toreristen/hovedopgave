@@ -3,10 +3,13 @@
 </script>
 
 <template>
-    <h2>gis</h2>
+<h1>
+    Lois & Census
+</h1>
+
 
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
 </style>

@@ -4,15 +4,16 @@
 
 
 <template>
-    <nav class="sub-nav">
+      <nav class="sub-nav">
         <div class="btn-1">
-            <router-link class="sub-link" to="/kontakt/lois">LOIS & Census</router-link>
+            <p class="sub-link" to="/kontakt/lois">LOIS & Census</p>
 
         </div>
         <div class="btn-2">
-        <router-link class="sub-link" to="/kontakt/gis">GIS</router-link>
+        <p class="sub-link" to="/kontakt/gis">GIS</p>
         </div>
     </nav>
+
         
 </template>
 

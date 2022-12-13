@@ -11,12 +11,15 @@
   //TODO add wrap class instead of 95 width
   width: 95%;
   height: 10vh;
+  //skal skubbes
   margin: auto;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
-  
+  position: fixed;
+
+
   .header-logo {
     width: 125px;
     margin-left: 4rem;
@@ -40,6 +43,7 @@
       text-decoration: none;
       font-weight: 700;
       color: $black;
+      cursor: pointer;
 
       &:hover {
         opacity: 1;
@@ -87,6 +91,23 @@
 
     }
 
+  }
+
+}
+
+.modal-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+
+  .filler {
+    outline: 2px dotted rgba(0, 0, 0, 0.552);
+    min-height: 100px;
+
+    margin: 0 3rem;
   }
 
 }

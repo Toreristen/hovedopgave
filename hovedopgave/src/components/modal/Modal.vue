@@ -3,9 +3,7 @@
     <div class="nav-modal-inner" @click="$emit('close')"></div>
     <div class="nav-modal-content">
       <slot />
-      <RouterLink to="/ydelser" @click="$emit('close')">
-              ydelser
-            </RouterLink>
+      
       <button type="button" @click="$emit('close')">close</button>
     </div>
   </div>

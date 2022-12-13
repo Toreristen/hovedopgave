@@ -10,7 +10,9 @@ import Footer from './components/footer/Footer.vue';
     <div>
 
         <Nav></Nav>
-        
+        <div>
+
+        </div>
         <RouterView></RouterView>
 
         <Footer></Footer>
@@ -18,6 +20,6 @@ import Footer from './components/footer/Footer.vue';
     </div>
 </template>
 
-<style lang="scss" >
+<style lang="scss">
 
 </style>

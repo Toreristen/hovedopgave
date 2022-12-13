@@ -3,10 +3,11 @@
 </script>
 
 <template>
-    <h2>lois</h2>
-
+<h1>
+    Gis
+</h1>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
 </style>

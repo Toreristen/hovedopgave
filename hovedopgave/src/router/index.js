@@ -9,8 +9,7 @@ import BoligView from '../views/boligView.vue';
 import KommunerView from '../views/KommunerView.vue';
 import ByggebranchenView from '../views/ByggebranchenView.vue';
 import ForsyningsselskaberView from '../views/ForsyningsselskaberView.vue';
-import LoisContactView from '../views/LoisContactView.vue';
-import GisContactView from '../views/GisContactView.vue';
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,13 +31,7 @@ const router = createRouter({
       path: '/kontakt',
       name: 'kontakt',
       component: ContactView,
-      children: [{
-        path: 'lois',
-        component: LoisContactView
-      },{
-        path: 'gis',
-        component: GisContactView
-      }]
+      
     },
     {
       path: '/cases',
