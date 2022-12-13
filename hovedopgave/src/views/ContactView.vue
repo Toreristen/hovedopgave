@@ -7,7 +7,7 @@ import GisContact from '../components/contact/GisContact.vue';
 import { ref } from "vue";
 
 export default {
-  components: { LoisContact, GisContact },
+  components: { Contact, LoisContact, GisContact },
   setup() {
     const loisShown = ref(true)
     const gisShown = ref(false)
@@ -25,12 +25,14 @@ export default {
 
     </Contact>
 
-    <button :class="loisShown ? 'lois-active' : '' " class="tester" @click="loisShown = true, gisShown = false">
-      knappppeerinh
-    </button>
-    <button :class="gisShown ? 'gis-active' : '' " @click="loisShown = false, gisShown = true">
-      knappppeerinh
-    </button>
+    <div class="contact-buttons">
+      <button :class="loisShown ? 'lois-active' : '' " class="lois-btn" @click="loisShown = true, gisShown = false">
+        LOIS & Census
+      </button>
+      <button :class="gisShown ? 'gis-active' : '' " class="gis-btn" @click="loisShown = false, gisShown = true">
+        GIS
+      </button>
+    </div>
 
     <!-- <nav v-show="loisShown" class="sub-nav">
       <div class="btn-1">
@@ -56,17 +58,71 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.tester {
-  margin-top: 20vh;
-  width: 50vw;
+@import "../assets/styling/variables/colors";
+@import "../assets/styling/variables/fonts";
+.contact-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 
+  margin-top: 5rem;
+ 
+
+  .lois-btn {
+    background-color: #A0A0A0;
+    height: 6rem;
+    margin-top:2rem;
+    border: none;
+    text-align: end;
+    padding-right: 1.5rem;
+    color: $white;
+    font-size: 2rem;
+    font-weight: 600;
+    
+    box-shadow: inset -10px -10px 8px -8px $darkShadow;
+  }
+
+  .lois-active {
+    transition: 0.05s ease-in;
+    background-color: #D1D1D1;
+    color: $darkBlue;
+    font-size: 2.2rem;
+    font-weight: 600;
+    height: 7rem;
+    border: none;
+    border-radius: 0 4px 0 0;
+    
+    box-shadow: none;
+    margin-top: 1rem;
+  }
+
+  .gis-btn {
+    background-color: #A0A0A0;
+    height: 6rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 0 0 0 2px;
+    box-shadow: inset 10px -10px 8px -8px $darkShadow;
+    color: $white;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: start;
+    padding-left: 1.5rem;
+  }
+  
+  .gis-active {
+    
+    transition: 0.05s ease-in;
+    background-color: #D1D1D1;
+    color: $darkBlue;
+    
+    font-size: 2.2rem;
+    font-weight: 600;
+    height: 7rem;
+    border: none;
+    border-radius: 4px 0 0 0;
+    margin-top: 1rem;
+    box-shadow: none;
+}
 }
 
-.lois-active {
-  font-size: 4rem;
-}
-
-.gis-active {
-  font-size: 6rem;
-}
 </style>
