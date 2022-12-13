@@ -18,11 +18,11 @@
             
         </section>
         <section class="item-b">
-            <img src="../../assets/img/cases-desktop.png" alt="" class=" intro-img img-fluid">
+            <img src="../assets/img/pipes.jpg" alt="" class=" intro-img img-fluid">
         </section>
 
         <section class="item-c">
-            <img src="../../assets/img/cases-desktop.png" alt="" class="intro-img img-fluid">
+            <img src="../assets/img/copenhagen-skyline.jpg" alt="" class="intro-img img-fluid">
         </section>
 
         <section class="item-d">

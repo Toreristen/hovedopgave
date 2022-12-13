@@ -12,11 +12,11 @@
     
 </section>
 <section class="item-b">
-    <img src="../../assets/img/cases-desktop.png" alt="" class=" intro-img img-fluid">
+    <img src="../../assets/img/gruppebillede-geodata.jpg" alt="" class=" intro-img img-fluid">
 </section>
 
 <section class="item-c">
-    <img src="../../assets/img/cases-desktop.png" alt="" class="intro-img img-fluid">
+    <img src="../../assets/img/odense-havn.jpg" alt="" class="intro-img img-fluid">
 </section>
 
 <section class="item-d">
