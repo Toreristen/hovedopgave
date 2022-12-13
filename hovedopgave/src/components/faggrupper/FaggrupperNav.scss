@@ -11,6 +11,7 @@
         font-size: 2rem;
         font-weight: 600;
         color: $greyTxt;
+        border-bottom: 3px solid #00000000;
 
         &:hover {
             color: $darkBlue;
@@ -22,9 +23,11 @@
 
     .router-link-active {
         border-top: 3px solid $darkBlue;
+        border-bottom: none;
         color: $darkBlue;
         cursor: pointer;
         transition: 0.1s ease-in;
+
     }
 }
 
