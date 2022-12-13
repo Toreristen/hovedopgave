@@ -89,6 +89,9 @@ export default {
       </section>
 
     </Modal>
+    <div class="nav-spacing">
+
+    </div>
   </div>
 </template>
 <!-- Make it scoped to not make it apply to everything -->
