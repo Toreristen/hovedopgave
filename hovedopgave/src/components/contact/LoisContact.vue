@@ -16,7 +16,8 @@
     </section>
 
     <section class="contact-portraits">
-        penis
+        <img class="img" src="../../assets/img/henrik_pb.jpg" alt="">
+        <img class="img" src="../../assets/img/allan_pb.jpg" alt="">
     </section>
 
 

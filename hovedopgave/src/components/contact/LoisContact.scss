@@ -9,50 +9,62 @@
     grid-template-columns: 1fr 2fr;
     gap: 4rem;
 
-    .sub-header {
-        color: #606060;
-        font-size: 2.8rem;
-        margin-top: 7rem;
-    }
+    .lois-txt {
+        margin-top: 5rem;
 
-    .main-header {
-        color: $darkBlue;
-        font-size: 4.8rem;
-        margin-top: 0.8rem;
-    }
-
-    .info-txt {
-        font-size: $txtSize;
-        margin-top: 1rem;
-    }
-
-    .btn {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 160px;
-        margin-top: 3rem;
-        background-color: $darkBlue;
-        border-radius: 4px 4px 16px 4px;
-        padding: 1.4rem 2rem;
-
-        
-        .btn-a {
-            color: $white;
-            text-decoration: none;
-            text-align: center;
-            font-size: 2.2rem;
-            font-weight: 600;
-
+        .sub-header {
+            color: #606060;
+            font-size: 2.8rem;
+            margin-top: 7rem;
         }
-
-        &:hover {
-            transition: 0.1s ease-in;
-            background-color: $orange;
+    
+        .main-header {
+            color: $darkBlue;
+            font-size: 4.8rem;
+            margin-top: 0.8rem;
+        }
+    
+        .info-txt {
+            font-size: $txtSize;
+            margin-top: 1rem;
+        }
+    
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 160px;
+            margin-top: 3rem;
+            background-color: $darkBlue;
+            border-radius: 4px 4px 16px 4px;
+            padding: 1.4rem 2rem;
+    
+            
+            .btn-a {
+                color: $white;
+                text-decoration: none;
+                text-align: center;
+                font-size: 2.2rem;
+                font-weight: 600;
+    
+            }
+    
+            &:hover {
+                transition: 0.1s ease-in;
+                background-color: $orange;
+            }
         }
     }
 
     .contact-portraits {
-        background-color: hotpink;
+        display: flex;
+        gap: 2.5rem;
+
+        margin: 5rem 0;
+
+        .img {
+            width: 50%;
+            height: auto;
+        }
     }
 }
