@@ -13,28 +13,54 @@ export default {
   data() {
     return {
       hover: false,
+      scrollPosition: 0,
     }
-  }
+  },
+  created () {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  destroyed () {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll () {
+      console.log(scrollY)
+      if (scrollY > this.scrollPosition) {
+        document.getElementById('main-header').style.backgroundColor = "rgba(255, 255, 255," + scrollY/300 +")";
+        document.getElementById('header-nav').style.color = "black";
+
+      }
+      else if (this.$route.path === '/') {
+        
+        document.getElementById('header-nav').style.color = "white";
+      }
+      else {
+        document.getElementById('main-header').style.backgroundColor = "transparent";
+      }
+    }
+}
 }
 
 </script>
 
 <template>
   <div class="bg">
-    <header class="main-header">
+    <header id="main-header" class="main-header" @scroll="handleScoll()">
       <div class="header-logo">
         <RouterLink to="/">
           <img class="img-fluid" src="../../assets/img/logo_2022_geodata_orange.svg" alt="Logo" />
         </RouterLink>
       </div>
-      <nav class="header-nav">
-        <RouterLink @mouseover="hover = true" @mouseleave="hover = false" :class="{ active: hover }"
-          class="header-links" to="/">Home</RouterLink>
+      <nav id="header-nav" class="header-nav" 
+      
+      v-bind:style="
+      [this.$route.path === '/' ? {'color': '#FFFFFF'} : {'color': '#000000'} ]">
+
         <div @mouseover="hover = true" @mouseleave="hover = false" :class="{ active: hover }" @click="isShowing = true"
           class="header-links ">Ydelser ^
         </div>
         <RouterLink @mouseover="hover = true" @mouseleave="hover = false" :class="{ active: hover }"
-          class="header-links" to="/faggrupper">Faggrupper</RouterLink>
+          class="header-links" to="/faggrupper/kommuner">Faggrupper</RouterLink>
         <RouterLink @mouseover="hover = true" @mouseleave="hover = false" :class="{ active: hover }"
           class="header-links" to="/cases">Cases</RouterLink>
         <RouterLink @mouseover="hover = true" @mouseleave="hover = false" :class="{ active: hover }"

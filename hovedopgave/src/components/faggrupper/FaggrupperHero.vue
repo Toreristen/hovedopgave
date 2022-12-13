@@ -5,12 +5,12 @@
 
 <template>
     <section class="container">
+        <div class="block-square">
+        </div>
         <div class="txt-square">
             <h1 class="main-header">Faggrupper</h1>
             <p class="txt">Vores brede udbud af programmer kan bruges af mange forskellige erhverv. Læs hvordan Geodata kan styrke dit erhverv.</p>
             <a href="#" class="btn">Kontakt os</a>
-        </div>
-        <div class="block-square">
         </div>
     </section>
 </template>

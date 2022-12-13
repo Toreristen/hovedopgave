@@ -15,6 +15,16 @@ import VideoSection from '../components/frontpage/Videosection.vue';
 </template>
 
 <style lang="scss" scoped>
+@import "../assets/styling/variables/colors";
 
+
+    .header-links {
+      color:  $white;
+
+      &:hover {
+        opacity: 1;
+        color: $white;
+      }
+    }
 
 </style>
