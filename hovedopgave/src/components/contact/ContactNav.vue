@@ -9,7 +9,9 @@
             <router-link class="sub-link" to="/kontakt/lois">LOIS & Census</router-link>
 
         </div>
+        <div class="btn-2">
         <router-link class="sub-link" to="/kontakt/gis">GIS</router-link>
+        </div>
     </nav>
         
 </template>

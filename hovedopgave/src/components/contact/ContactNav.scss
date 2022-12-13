@@ -2,11 +2,36 @@
 @import "../../assets/styling/variables/fonts";
 
 .sub-nav {
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+    .btn-1 {
+        background: pink;
+        width: 50%;
+        text-align: right;
+        padding: 20px;
+        border-radius: 0 16px 0 0;
+    }
+    .btn-2 {
+        background: blue;
+        width: 50%;
+        padding: 20px;
+    }
+    .router-link-active {
+        background-color: teal;
+    }
+    .sub-link {
+        text-decoration: none;
+        font-size: 2.2rem;
+    }
+    /*display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 5rem;
     background-color: teal;
 
+    
     .btn-1 {
         display: flex;
         justify-content: flex-end;
@@ -26,4 +51,5 @@
             background-color: RED;
         }
     }
+    */
 }
