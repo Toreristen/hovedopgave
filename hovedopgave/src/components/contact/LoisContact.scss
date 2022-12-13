@@ -5,9 +5,14 @@
     background-color: #D1D1D1;
     padding: 0 20rem;
 
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4rem;
+
     .sub-header {
         color: #606060;
         font-size: 2.8rem;
+        margin-top: 7rem;
     }
 
     .main-header {
@@ -22,6 +27,9 @@
     }
 
     .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 160px;
         margin-top: 3rem;
         background-color: $darkBlue;
@@ -37,5 +45,14 @@
             font-weight: 600;
 
         }
+
+        &:hover {
+            transition: 0.1s ease-in;
+            background-color: $orange;
+        }
+    }
+
+    .contact-portraits {
+        background-color: hotpink;
     }
 }
