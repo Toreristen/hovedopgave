@@ -16,7 +16,11 @@
     </section>
 
     <section class="contact-portraits">
-        <img class="img" src="../../assets/img/henrik_pb.jpg" alt="">
+        <div class="portrait-container">
+            <img class="img" src="../../assets/img/henrik_pb.jpg" alt="">
+            <div class="image-overlay"></div>
+
+        </div> 
         <img class="img" src="../../assets/img/allan_pb.jpg" alt="">
     </section>
 

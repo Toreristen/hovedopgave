@@ -64,9 +64,6 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr;
 
-  
-
-  
   margin-top: 5rem;
  
 
@@ -103,6 +100,7 @@ export default {
     height: 6rem;
     margin-top: 2rem;
     border: none;
+    border-radius: 0 0 0 2px;
     box-shadow: inset 10px -10px 8px -8px $darkShadow;
     color: $white;
     font-size: 2rem;
