@@ -1,0 +1,41 @@
+@import "../../assets/styling/variables/colors";
+@import "../../assets/styling/variables/fonts";
+
+.lois {
+    background-color: #D1D1D1;
+    padding: 0 20rem;
+
+    .sub-header {
+        color: #606060;
+        font-size: 2.8rem;
+    }
+
+    .main-header {
+        color: $darkBlue;
+        font-size: 4.8rem;
+        margin-top: 0.8rem;
+    }
+
+    .info-txt {
+        font-size: $txtSize;
+        margin-top: 1rem;
+    }
+
+    .btn {
+        width: 160px;
+        margin-top: 3rem;
+        background-color: $darkBlue;
+        border-radius: 4px 4px 16px 4px;
+        padding: 1.4rem 2rem;
+
+        
+        .btn-a {
+            color: $white;
+            text-decoration: none;
+            text-align: center;
+            font-size: 2.2rem;
+            font-weight: 600;
+
+        }
+    }
+}
