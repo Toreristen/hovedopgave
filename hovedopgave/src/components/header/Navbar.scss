@@ -7,17 +7,23 @@
   height: auto;
 }
 
+.nav-spacing {
+  height: 10vh;
+}
+
 .main-header {
   //TODO add wrap class instead of 95 width
   width: 95%;
   height: 10vh;
   //skal skubbes
   margin: auto;
+ 
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
   position: fixed;
+  z-index: 99;
 
 
   .header-logo {
