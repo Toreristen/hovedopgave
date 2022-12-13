@@ -13,7 +13,10 @@
         <div class="btn">
             <a href="#" class="btn-a">Gå til support</a>
         </div>
+    </section>
 
+    <section class="contact-portraits">
+        penis
     </section>
 
 
