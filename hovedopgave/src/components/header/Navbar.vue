@@ -57,7 +57,7 @@ export default {
       [this.$route.path === '/' ? {'color': '#FFFFFF'} : {'color': '#000000'} ]">
 
         <div @mouseover="hover = true" @mouseleave="hover = false" :class="{ active: hover }" @click="isShowing = true"
-          class="header-links ">Ydelser ^
+          class="header-links ">Ydelser <font-awesome-icon icon="fa-solid fa-chevron-down" />
         </div>
         <RouterLink @mouseover="hover = true" @mouseleave="hover = false" :class="{ active: hover }"
           class="header-links" to="/faggrupper/kommuner">Faggrupper</RouterLink>

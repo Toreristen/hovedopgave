@@ -17,14 +17,25 @@
 
     <section class="contact-portraits">
         <div class="portrait-container">
-            <img class="img" src="../../assets/img/henrik_pb.jpg" alt="">
-            <div class="image-overlay"></div>
-
+            <img class="img" src="../../assets/img/henrik_pb.jpg" alt="Henrik">
+            <div class="image-overlay">
+                <p class="title">Landinspektør, Partner</p>
+                <h3 class="name">Henrik Skov Uldall</h3>
+                <p class="contact-info"><font-awesome-icon icon="fa-solid fa-phone" /> +45 63 13 68 56</p>
+                <p class="contact-info"><font-awesome-icon icon="fa-solid fa-envelope" /> hsk@lifa.dk</p>
+            </div>
         </div> 
-        <img class="img" src="../../assets/img/allan_pb.jpg" alt="">
+        <div class="portrait-container">
+            <img class="img" src="../../assets/img/allan_pb.jpg" alt="Allan">
+            <div class="image-overlay">
+                <p class="title">Forretningsspecialist, Partner</p>
+                <h3 class="name">Allan Larsen</h3>
+                <p class="contact-info"><font-awesome-icon icon="fa-solid fa-phone" /> +45 63 13 68 89</p>
+                <p class="contact-info"><font-awesome-icon icon="fa-solid fa-envelope" /> ala@lifa.dk</p>
+            </div>
+        </div> 
+        
     </section>
-
-
 </article>
 
 

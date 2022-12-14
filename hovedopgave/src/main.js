@@ -10,9 +10,9 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
 import { faLinkedin, faSquareFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons'
-import {faChevronRight} from '@fortawesome/free-solid-svg-icons'
+import {faChevronRight, faChevronDown, faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons'
 /* add icons to the library */
-library.add(faLinkedin, faSquareFacebook, faYoutube, faChevronRight)
+library.add(faLinkedin, faSquareFacebook, faYoutube, faChevronRight, faChevronDown, faPhone, faEnvelope)
 
 
 import './assets/styling/global.scss'
