@@ -2,6 +2,7 @@
 
 .footer {    
     margin-top: 10rem;
+    border-bottom: 0.5rem solid $greenBlue;
     .footer-top {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
