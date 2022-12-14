@@ -2,6 +2,8 @@
 import { RouterView } from 'vue-router';
 import Nav from './components/header/Navbar.vue';
 import Footer from './components/footer/Footer.vue';
+import MobileNav from './components/header/mobileNav/MobileNav.vue';
+  
 
 
 </script>
@@ -9,8 +11,9 @@ import Footer from './components/footer/Footer.vue';
 <template>
     <div>
 
+        <MobileNav></MobileNav>
         <Nav></Nav>
-        
+
         <RouterView></RouterView>
 
         <Footer></Footer>

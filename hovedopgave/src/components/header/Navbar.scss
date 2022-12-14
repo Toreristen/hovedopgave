@@ -1,5 +1,6 @@
 @import "../../assets/styling/variables/fonts.scss";
 @import "../../assets/styling/variables/colors";
+@import "../../assets/styling/mixins";
 
 //TODO add img fluid to global class, or as mixin
 .img-fluid {
@@ -28,15 +29,14 @@ a {
   position: fixed;
   z-index: 99;
 
+  @media (max-width: 769px) {
+    display: none
+  }
+
 
   .header-logo {
-    width: 100px;
-    margin-left: 4rem;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+   @include logo-container;
+   margin-left: 5rem;
   }
   
   .header-nav {
