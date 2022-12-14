@@ -78,7 +78,7 @@ export default {
         <div class="filler">
           <RouterLink class="dropdown-link" to="/ydelser" @click="$emit('close')">
             <figure>
-              <img class="img-fluid" src="../../assets/img/copenhagen-skyline.jpg" alt="">
+              <img class="img-fluid" src="../../assets/img/gis.jpg" alt="">
 
               <figcaption>
                 <h4 class="dropdown-header">
@@ -100,7 +100,7 @@ export default {
           <RouterLink class="dropdown-link" to="/ydelser" @click="$emit('close')">
             <figure>
 
-              <img class="img-fluid" src="../../assets/img/copenhagen-skyline.jpg" alt="">
+              <img class="img-fluid" src="../../assets/img/data.jpg" alt="">
               <figcaption>
                 <h4 class="dropdown-header">
                   Datadistribution
@@ -121,7 +121,7 @@ export default {
           <RouterLink class="dropdown-link" to="/ydelser" @click="$emit('close')">
             <figure>
 
-              <img class="img-fluid" src="../../assets/img/copenhagen-skyline.jpg" alt="">
+              <img class="img-fluid" src="../../assets/img/gis.jpg" alt="">
               <figcaption>
                 <h4 class="dropdown-header">
                   Geoinformatik
@@ -138,10 +138,10 @@ export default {
         </div>
 
         <div class="filler">
-          <RouterLink class="dropdown-link" to="/ydelser" @click="$emit('close')">
+          <RouterLink class="dropdown-link" to="/faggrupper" @click="$emit('close')">
             <figure>
 
-              <img class="img-fluid" src="../../assets/img/copenhagen-skyline.jpg" alt="">
+              <img class="img-fluid" src="../../assets/img/data.jpg" alt="">
               <figcaption>
                 <h4 class="dropdown-header">
                   Din faggruppe
