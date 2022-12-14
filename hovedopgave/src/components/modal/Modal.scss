@@ -26,8 +26,13 @@
         text-align: center;
         font-size: 4rem;
         margin-top: 2rem;
-        color: $greenBlue;
+        color: $darkBlue;
         cursor: pointer;
+
+        &:hover {
+          color: $greenBlue;
+          transition: 0.1s ease-in;
+        }
       }
   
       @keyframes navOpen {
