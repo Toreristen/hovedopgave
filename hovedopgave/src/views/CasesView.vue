@@ -1,20 +1,25 @@
-<script>
-import Modal from '../components/modal/Modal.vue'
-import { ref } from "vue";
+<script setup>
+import CasesHero from '../components/cases/CasesHero.vue';
+import CasesCTA from '../components/frontpage/CasesCTA.vue';
+// import Modal from '../components/modal/Modal.vue'
+// import { ref } from "vue";
 
-export default {
-  components: { Modal },
-  setup () {
-    const isShowing = ref(false)
-    console.log(isShowing)
-    return { isShowing }
-  }
-}
+// export default {
+//   components: { Modal },
+//   setup () {
+//     const isShowing = ref(false)
+//     console.log(isShowing)
+//     return { isShowing }
+//   }
+// }
 
 </script>
 
 <template>
- <div>
+
+  <CasesHero></CasesHero>
+  <CasesCTA></CasesCTA>
+ <!-- <div>
 
    <button @click="isShowing = true">
      show modal
@@ -30,7 +35,7 @@ export default {
   <img src="http://www.placekitten.com/1220/1000" alt="">
 </div>
     
-  </div>
+  </div> -->
 </template>
 
 <style lang="scss" scoped>
