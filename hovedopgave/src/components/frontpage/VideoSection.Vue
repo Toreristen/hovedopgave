@@ -3,8 +3,7 @@
 <template>
    
     <section class="video">
-        <div class="overlay"></div>
-        <div class="video-mpg">
+        <div class="video-container">
             <video src="../../assets/video/background_wcolor.mp4" loop autoplay ></video>
         </div> 
         <div class="video-text">
@@ -12,6 +11,7 @@
             <h2 class="heading">Leverandør indenfor GIS, OIS & CAD løsninger</h2>
             <a class="contact-btn" href="/kontakt">Kontakt os</a>
         </div>
+        <div class="overlay"></div>
     </section>
 </template>
 
