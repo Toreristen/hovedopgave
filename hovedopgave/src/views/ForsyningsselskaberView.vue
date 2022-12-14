@@ -9,9 +9,9 @@
     
             <section class="item-a">
                 <h2 class="heading">Specielt til forsyningsselskaber</h2>
-                <p class="txt">I Geodata har vi specialiseret os i at kunne forsyne vores kunder med data fra en lang række forskellige datakilder.  Adgangen til gode og valide data giver bl.a. mulighed for at optimere arbejdsprocesser, skabe grobund for vækst samt udvikle nye forretningsområder.
+                <p class="txt">Værktøjerne gør det bl.a. let at visualisere fremsøgte OIS-informationer, og du har alle værktøjerne til opslag og analyse lige ved hånden. Du får dermed en bred vifte af analysemuligheder mellem geografi og registerdata.
                     <br><br>
-                LIFA-Geodata har opbygget en serie af generelle og kundespecifikke dataydelser, som anvendes i vidt forskellige forretningsområder – lige fra detailhandel til porteføljestyring og offentlig forvaltning.</p>
+                    LIFA udvikler gerne nye applikationer og løsninger til dit behov inden for de nævnte GIS-platforme. Derudover tilpasser og forbedrer vi hele tiden vores applikationer i forhold til vores kunders ønsker og tidens behov.</p>
     
                 <div class="btn">
                     <a href="#" class="read-more">Læs mere </a>
@@ -29,9 +29,11 @@
     
             <section class="item-d">
                 <h2 class="heading">Med GIS har du overblikket</h2>
-                <p class="txt">Geodata er en afdeling af LIFA A/S, som der gennem årene har udviklet den traditionelle landinspektørforretning til også at omfatte specialistviden på GIS-, OIS- og CAD-området.
-                <br><br>
-                Udgangspunktet for firmaets forretningsområde er de traditionelle landinspektøropgaver, der med tiden har udviklet sig til også at omfatte distribution af landsdækkende ejendomsdata samt udvikling af CAD- og GIS-applikationer til håndtering af ejendomsdata på markedets dominerende CAD- og GIS-platforme.
+                <p class="txt">GIS er et stærkt redskab til fagpersoner der bl.a. kan bruges til at indlæse person- og ejendomsdata i egne GIS analyser. LIFAs samling af GIS-værktøjer gør det nemt at lave selv avancerede GIS-analyser i mange forskellige sammenhænge og til mange formål.
+                <br>
+                
+                <br>
+                Applikationerne anvendes i dag af mange forskellige kundetyper, som f.eks. landinspektører, kommuner og forsyningsselskaber. Med LIFA’s værktøjer får du dermed en hurtig måde at skaffe dig indblik i ejendomsrelaterede forhold. Konkret kan dette f.eks. bruges til at udtrække adresselister til brug for eksempelvis journalisering, brevfletning, udsendelse af høringsbreve mv.
                 </p>
     
                 <div class="btn">

@@ -27,9 +27,13 @@
 
         <section class="item-d">
             <h2 class="heading">LOIS er din indsigt i kommunen</h2>
-            <p class="txt">Geodata er en afdeling af LIFA A/S, som der gennem årene har udviklet den traditionelle landinspektørforretning til også at omfatte specialistviden på GIS-, OIS- og CAD-området.
-            <br><br>
-            Udgangspunktet for firmaets forretningsområde er de traditionelle landinspektøropgaver, der med tiden har udviklet sig til også at omfatte distribution af landsdækkende ejendomsdata samt udvikling af CAD- og GIS-applikationer til håndtering af ejendomsdata på markedets dominerende CAD- og GIS-platforme.
+            <p class="txt">I LIFA er vi som mangeårig OIS-distributører specialister i ejendoms- og persondata og leverer analyser til kommuner, regioner, forsyningsselskaber samt andre private virksomheder. Vores analyser danner grundlag for planlægning, forebyggelse, høringer eller ejendomsvurdering mv.
+                <br><br>
+
+
+            Ofte har vores analyser en geografisk dimension og kan derfor med fordel præsenteres på kort, enten som resultater eller som dynamiske, digitale kort der f.eks. kan vise en udvikling over tid – flyttemønstre, aldersudvikling etc.
+            <br>
+            LIFA har udviklet en række specielprodukter til at hjælpe med netop dataanalyser og præsentation af samme.
             </p>
 
             <div class="btn">
