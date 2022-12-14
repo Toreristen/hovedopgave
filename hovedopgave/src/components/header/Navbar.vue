@@ -78,7 +78,7 @@ export default {
         <div class="filler">
           <RouterLink class="dropdown-link" to="/ydelser" @click="$emit('close')">
             <figure>
-              <img class="img-fluid" src="http://www.placekitten.com/200/80" alt="">
+              <img class="img-fluid" src="../../assets/img/copenhagen-skyline.jpg" alt="">
 
               <figcaption>
                 <h4 class="dropdown-header">
@@ -88,7 +88,7 @@ export default {
                   Census
                 </h5>
                 <p class="dropdown-txt">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  LIFA Census er et stærkt strategisk værktøj til kommunale plan- og udviklingsopgaver.
                 </p>
               </figcaption>
               </figure>
@@ -109,7 +109,7 @@ export default {
                   LOIS
                 </h5>
                 <p class="dropdown-txt">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Få adgang til en lang række datasæt der optimerer din forretning
                 </p>
               </figcaption>
             </figure>
@@ -118,10 +118,43 @@ export default {
 
         </div>
         <div class="filler">
+          <RouterLink class="dropdown-link" to="/ydelser" @click="$emit('close')">
+            <figure>
 
+              <img class="img-fluid" src="../../assets/img/copenhagen-skyline.jpg" alt="">
+              <figcaption>
+                <h4 class="dropdown-header">
+                  Geoinformatik
+                </h4>
+                <h5 class="dropdown-sub-header">
+                  GIS
+                </h5>
+                <p class="dropdown-txt">
+                  Et stærkt redskab til fagpersoner der bl.a. kan bruges til at indlæse person- og ejendomsdata.
+                </p>
+              </figcaption>
+            </figure>
+          </RouterLink>
         </div>
-        <div class="filler">
 
+        <div class="filler">
+          <RouterLink class="dropdown-link" to="/ydelser" @click="$emit('close')">
+            <figure>
+
+              <img class="img-fluid" src="../../assets/img/copenhagen-skyline.jpg" alt="">
+              <figcaption>
+                <h4 class="dropdown-header">
+                  Din faggruppe
+                </h4>
+                <h5 class="dropdown-sub-header">
+                  Specielt til dit erhverv
+                </h5>
+                <p class="dropdown-txt">
+                  Læs hvordan vores ydelser kan bruges indenfor dit erhverv.
+                </p>
+              </figcaption>
+            </figure>
+          </RouterLink>
         </div>
 
 

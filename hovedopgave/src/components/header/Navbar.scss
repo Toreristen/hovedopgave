@@ -110,22 +110,24 @@ a {
 
 .modal-grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr,);
   // justify-content: center;
-
+  margin: 0 5rem;
   padding-top: 2rem;
+  // box-shadow: inset 2px 0px 4px 1px $darkShadow;
   
 
   .filler {
-    outline: 2px dotted rgba(0, 0, 0, 0.552);
     min-height: 100px;
 
 
     .dropdown-link {
+      background-color: $white;
       text-decoration: none;
     
       .dropdown-header {
         font-size: 2.4rem;
+        color: $darkBlue;
         margin: 0rem;
         margin-top: 1.5rem;
     
@@ -134,14 +136,21 @@ a {
       .dropdown-sub-header {
         font-size: 2rem;
         margin: 0rem;
-        margin-top: 0.5rem;
-        font-weight: 400;
+        margin-top: 1.5rem;
+        // font-weight: 400;
       }
 
       .dropdown-txt {
         font-size: $txtSize;
         margin-top: 0.5rem;
       }
+
+      
+    }
+    
+    &:hover {
+      background-color: $lighterGrey;
+      border-radius: 4px;
     }
   }
 }

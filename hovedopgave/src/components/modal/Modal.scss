@@ -13,6 +13,7 @@
     }
     .nav-modal-content {
       background-color: $white;
+      box-shadow: inset 2px 0px 4px 1px $darkShadow;
       position: fixed;
       width: 100vw;
       height: 50vh;
@@ -20,16 +21,24 @@
       left: 0;
       top: 7vh;
       animation: navOpen 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95) ;
+
+      .close-btn {
+        text-align: center;
+        font-size: 4rem;
+        margin-top: 2rem;
+        color: $greenBlue;
+        cursor: pointer;
+      }
   
       @keyframes navOpen {
-    from {
-      height: 0vh;
-    }
+        from {
+          height: 0vh;
+        }
   
-    to {
-      height: 30vh;
-    }
-  }
+        to {
+          height: 30vh;
+        }
+      }
   
     }
   }
