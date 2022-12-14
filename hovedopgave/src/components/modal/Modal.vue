@@ -4,7 +4,7 @@
     <div class="nav-modal-content">
       <slot />
       
-      <button type="button" @click="$emit('close')">close</button>
+      <button type="button" @click="$emit('close')"><font-awesome-icon icon="fa-solid fa-xmark" /></button>
     </div>
   </div>
 </template>

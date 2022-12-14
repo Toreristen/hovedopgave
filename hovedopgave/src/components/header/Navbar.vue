@@ -76,32 +76,45 @@ export default {
       <section class="modal-grid-container">
 
         <div class="filler">
-          <RouterLink to="/ydelser" @click="$emit('close')">
-            ydelser
+          <RouterLink class="dropdown-link" to="/ydelser" @click="$emit('close')">
+            <figure>
+              <img class="img-fluid" src="http://www.placekitten.com/200/80" alt="">
+
+              <figcaption>
+                <h4 class="dropdown-header">
+                  Statistik & Analyse
+                </h4>
+                <h5 class="dropdown-sub-header">
+                  Census
+                </h5>
+                <p class="dropdown-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </figcaption>
+              </figure>
           </RouterLink>
 
         </div>
 
         <div class="filler">
+          <RouterLink class="dropdown-link" to="/ydelser" @click="$emit('close')">
+            <figure>
 
-          <figure>
-
-            <img class="img-fluid" src="http://www.placekitten.com/200/80" alt="">
-
-            <figcaption>
-              <h4>
-                overskrift
-              </h4>
-              <h5>
-                underoverskrift
-              </h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dignissimos omnis amet pariatur, eaque
-                nulla laborum ex numquam aperiam delectus quae asperiores eveniet itaque sit fugiat quam deleniti iste
-                eum quisquam fugit est porro totam adipisci! Repellat ex cum corrupti!
-              </p>
-            </figcaption>
-          </figure>
+              <img class="img-fluid" src="../../assets/img/copenhagen-skyline.jpg" alt="">
+              <figcaption>
+                <h4 class="dropdown-header">
+                  Datadistribution
+                </h4>
+                <h5 class="dropdown-sub-header">
+                  LOIS
+                </h5>
+                <p class="dropdown-txt">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </figcaption>
+            </figure>
+          </RouterLink>
+          
 
         </div>
         <div class="filler">

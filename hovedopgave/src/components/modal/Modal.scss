@@ -1,3 +1,4 @@
+@import "../../assets/styling/variables/colors";
 .nav-modal {
     position: relative;
   
@@ -11,10 +12,10 @@
       // background-color: rgba(255, 255, 255, 0.3);
     }
     .nav-modal-content {
-      background-color: rgba(255, 255, 255, 0.822);
+      background-color: $white;
       position: fixed;
       width: 100vw;
-      height: 30vh;
+      height: 50vh;
       z-index: 10;
       left: 0;
       top: 7vh;
