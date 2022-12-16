@@ -78,7 +78,7 @@ export default {
         <div class="filler">
           <RouterLink class="dropdown-link" to="/ydelser" @click="$emit('close')">
             <figure>
-              <img class="img-fluid" src="../../assets/img/gis.jpg" alt="">
+              <img class="img-fluid" src="../../assets/img/census.jpg" alt="">
 
               <figcaption>
                 <h4 class="dropdown-header">
