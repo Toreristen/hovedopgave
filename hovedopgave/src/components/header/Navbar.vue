@@ -141,7 +141,7 @@ export default {
           <RouterLink class="dropdown-link" to="/faggrupper" @click="$emit('close')">
             <figure>
 
-              <img class="img-fluid" src="../../assets/img/data.jpg" alt="">
+              <img class="img-fluid" src="../../assets/img/fagrupper.jpg" alt="">
               <figcaption>
                 <h4 class="dropdown-header">
                   Din faggruppe
