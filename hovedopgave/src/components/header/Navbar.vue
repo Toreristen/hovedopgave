@@ -16,29 +16,31 @@ export default {
       scrollPosition: 0,
     }
   },
-  created () {
+  created() {
     window.addEventListener('scroll', this.handleScroll);
   },
-  destroyed () {
+  destroyed() {
     window.removeEventListener('scroll', this.handleScroll);
   },
   methods: {
-    handleScroll () {
+    handleScroll() {
       console.log(scrollY)
       if (scrollY > this.scrollPosition) {
-        document.getElementById('main-header').style.backgroundColor = "rgba(255, 255, 255," + scrollY/300 +")";
+        document.getElementById('main-header').style.backgroundColor = "rgba(255, 255, 255," + scrollY / 300 + ")";
         document.getElementById('header-nav').style.color = "black";
 
       }
       else if (this.$route.path === '/') {
-        
+
         document.getElementById('header-nav').style.color = "white";
       }
       else {
         document.getElementById('main-header').style.backgroundColor = "transparent";
       }
-    }
-}
+    },
+
+
+  },
 }
 
 </script>
@@ -51,13 +53,12 @@ export default {
           <img class="img-fluid" src="../../assets/img/logo_2022_geodata_orange.svg" alt="Logo" />
         </RouterLink>
       </div>
-      <nav id="header-nav" class="header-nav" 
-      
-      v-bind:style="
+      <nav id="header-nav" class="header-nav" v-bind:style="
       [this.$route.path === '/' ? {'color': '#FFFFFF'} : {'color': '#000000'} ]">
 
-        <div @mouseover="hover = true" @mouseleave="hover = false" :class="{ active: hover }" @click="isShowing = true"
-          class="header-links ">Ydelser <font-awesome-icon icon="fa-solid fa-chevron-down" />
+        <div @mouseover="hover = true" @mouseleave="hover = false" :class="{ active: hover }"
+          @click="isShowing = true;" class="header-links ">Ydelser <font-awesome-icon
+            icon="fa-solid fa-chevron-down" />
         </div>
         <RouterLink @mouseover="hover = true" @mouseleave="hover = false" :class="{ active: hover }"
           class="header-links" to="/faggrupper/kommuner">Faggrupper</RouterLink>
@@ -91,7 +92,7 @@ export default {
                   LIFA Census er et stærkt strategisk værktøj til kommunale plan- og udviklingsopgaver.
                 </p>
               </figcaption>
-              </figure>
+            </figure>
           </RouterLink>
 
         </div>
@@ -114,7 +115,7 @@ export default {
               </figcaption>
             </figure>
           </RouterLink>
-          
+
 
         </div>
         <div class="filler">

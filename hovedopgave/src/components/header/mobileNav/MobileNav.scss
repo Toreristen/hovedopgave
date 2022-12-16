@@ -20,6 +20,10 @@
     .logo-container {
         @include logo-container;
         margin-left: 2.5rem;
+
+		&-inside {
+			margin: 1rem;
+		}
     }
 }
 
@@ -102,12 +106,7 @@
 
 		}
 
-		&__wrapper {
-      padding-top: 50px;
-    }
-
 		&__list {
-			padding-top: 50px;
       list-style:none;
       padding: 0;
       margin: 0;
