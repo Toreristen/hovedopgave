@@ -17,21 +17,21 @@
 
     <section class="contact-portraits">
         <div class="portrait-container">
-            <img class="img" src="../../assets/img/henrik_pb.jpg" alt="Henrik">
+            <img class="img" src="../../assets/img/helle_fryd.jpg" alt="Henriette">
             <div class="image-overlay">
                 <p class="title">Landinspektør, Partner</p>
-                <h3 class="name">Henrik Skov Uldall</h3>
+                <h3 class="name">Henriette Fryd</h3>
                 <p class="contact-info"><font-awesome-icon icon="fa-solid fa-phone" /> +45 63 13 68 56</p>
-                <p class="contact-info"><font-awesome-icon icon="fa-solid fa-envelope" /> hsk@lifa.dk</p>
+                <p class="contact-info"><font-awesome-icon icon="fa-solid fa-envelope" /> hfr@lifa.dk</p>
             </div>
         </div> 
         <div class="portrait-container">
-            <img class="img" src="../../assets/img/allan_pb.jpg" alt="Allan">
+            <img class="img" src="../../assets/img/anna_nash.jpg" alt="Orla">
             <div class="image-overlay">
                 <p class="title">Forretningsspecialist, Partner</p>
-                <h3 class="name">Allan Larsen</h3>
+                <h3 class="name">Orla Davér Hansen</h3>
                 <p class="contact-info"><font-awesome-icon icon="fa-solid fa-phone" /> +45 63 13 68 89</p>
-                <p class="contact-info"><font-awesome-icon icon="fa-solid fa-envelope" /> ala@lifa.dk</p>
+                <p class="contact-info"><font-awesome-icon icon="fa-solid fa-envelope" /> odh@lifa.dk</p>
             </div>
         </div> 
         
