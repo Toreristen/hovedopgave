@@ -27,10 +27,10 @@ export default {
                     <div class="sidemenu__wrapper">
                         <ul class="sidemenu__list">
                             <li class="sidemenu__item"><a href="">Ydelser</a></li>
-                            <li class="sidemenu__item"><a href="">Faggrupper</a></li>
-                            <li class="sidemenu__item"><a href="">Cases</a></li>
-                            <li class="sidemenu__item"><a href="">Om Os</a></li>
-                            <li class="sidemenu__item"><a href="">Kontakt</a></li>
+                            <li class="sidemenu__item"><a href="/faggrupper/kommuner">Faggrupper</a></li>
+                            <li class="sidemenu__item"><a href="/cases">Cases</a></li>
+                            <li class="sidemenu__item"><a href="/om-os">Om Os</a></li>
+                            <li class="sidemenu__item"><a href="/kontakt">Kontakt</a></li>
                         </ul>
                     </div>
                 </nav>
