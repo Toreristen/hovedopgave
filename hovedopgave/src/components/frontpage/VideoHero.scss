@@ -1,0 +1,29 @@
+@import "../../assets/styling/variables/colors";
+@import "../../assets/styling/variables/fonts";
+
+.showcase {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 2.5rem;
+
+    .video-container {
+        // position: absolute;
+        // top: 0;
+        // left: 0;
+        // width: 100%;
+        // height: 100%;
+        // overflow: hidden;
+        // background: var($darkBlue) url();
+    }
+
+    .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
