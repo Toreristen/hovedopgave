@@ -7,7 +7,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 1rem solid $greenBlue;
+    // border-bottom: 1rem solid $greenBlue;
+    box-shadow: inset -5px -5px 0px 0px $greenBlue;
     width: 100%;
     background-color: $grey;
     margin-top: 5rem;

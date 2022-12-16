@@ -6,7 +6,8 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 2rem;
-    border-bottom: 1rem solid $greenBlue;
+    // border-bottom: 1rem solid $greenBlue;
+    box-shadow: inset 5px -5px 0px 0px $greenBlue;
     background-color: $darkBlue;
     margin-top: 6rem ;
     padding: 2.5rem 5rem;
