@@ -32,9 +32,9 @@ export default {
 <template>
 
     <div id="mobile-header" class="mobile-header">
-        <a class="logo-container" to="/">
+        <RouterLink class="logo-container" to="/">
             <img class="img-fluid" src="../../../assets/img/logo_2022_geodata_orange.svg" alt="logo">
-        </a >
+        </RouterLink >
         <div id="sidemenu">
             <button class="sidemenu__btn" v-on:click="navOpen=!navOpen" v-bind:class="{active:navOpen}">
                 <span class="top"></span>
@@ -48,11 +48,11 @@ export default {
             </RouterLink >
                     <div>
                         <ul class="sidemenu__list">
-                            <li class="sidemenu__item"><a href="">Ydelser</a></li>
-                            <li class="sidemenu__item"><a href="/faggrupper/kommuner">Faggrupper</a></li>
-                            <li class="sidemenu__item"><a href="/cases">Cases</a></li>
-                            <li class="sidemenu__item"><a href="/om-os">Om Os</a></li>
-                            <li class="sidemenu__item"><a href="/kontakt">Kontakt</a></li>
+                            <li class="sidemenu__item"><a href="#">Ydelser</a></li>
+                            <li class="sidemenu__item"><RouterLink to="/faggrupper/kommuner">Faggrupper</RouterLink></li>
+                            <li class="sidemenu__item"><RouterLink to="/cases">Cases</RouterLink></li>
+                            <li class="sidemenu__item"><RouterLink to="/om-os">Om Os</RouterLink></li>
+                            <li class="sidemenu__item"><RouterLink to="/kontakt">Kontakt</RouterLink></li>
                         </ul>
                     </div>
                     

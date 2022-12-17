@@ -9,7 +9,7 @@ import VideoSection from '../components/frontpage/Videosection.vue';
     <VideoSection></VideoSection>
     <Intro></Intro>
     <CasesCTA></CasesCTA>
-    
+ 
   </main>
   
 </template>
