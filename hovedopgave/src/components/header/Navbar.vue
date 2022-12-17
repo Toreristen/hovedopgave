@@ -19,12 +19,18 @@ export default {
   created() {
     window.addEventListener('scroll', this.handleScroll);
   },
+  mounted() {
+    this.handleLoad();
+  },
+  updated() {
+    this.handleLoad();
+  },
   destroyed() {
     window.removeEventListener('scroll', this.handleScroll);
   },
   methods: {
     handleScroll() {
-      console.log(scrollY)
+      // console.log(scrollY)
       if (scrollY > this.scrollPosition) {
         document.getElementById('main-header').style.backgroundColor = "rgba(255, 255, 255," + scrollY / 300 + ")";
         document.getElementById('header-nav').style.color = "black";
@@ -38,8 +44,14 @@ export default {
         document.getElementById('main-header').style.backgroundColor = "transparent";
       }
     },
-
-
+    handleLoad() {
+      // console.log('updated'+this.$route.path)
+    if (this.$route.path === '/' && scrollY == this.scrollPosition) {
+      document.getElementById('header-nav').style.color = "white";
+    } else {
+      document.getElementById('header-nav').style.color = "black";
+    } 
+    }
   },
 }
 
@@ -49,12 +61,11 @@ export default {
   <div class="bg">
     <header id="main-header" class="main-header" @scroll="handleScoll()">
       <div class="header-logo">
-        <RouterLink to="/">
+        <RouterLink to="/" @mouseover="hover = true" @mouseleave="hover = false">
           <img class="img-fluid" src="../../assets/img/logo_2022_geodata_orange.svg" alt="Logo" />
         </RouterLink>
       </div>
-      <nav id="header-nav" class="header-nav" v-bind:style="
-      [this.$route.path === '/' ? {'color': '#FFFFFF'} : {'color': '#000000'} ]">
+      <nav id="header-nav" class="header-nav" >
 
         <div @mouseover="hover = true" @mouseleave="hover = false" :class="{ active: hover }"
           @click="isShowing = true;" class="header-links ">Ydelser <font-awesome-icon

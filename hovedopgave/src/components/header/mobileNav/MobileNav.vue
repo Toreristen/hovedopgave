@@ -16,7 +16,7 @@ export default {
   },
   methods: {
     handleScroll () {
-      console.log(scrollY)
+      // console.log(scrollY)
       if (scrollY > this.scrollPosition) {
         document.getElementById('mobile-header').style.backgroundColor = "rgba(255, 255, 255," + scrollY/300 +")";
       }
